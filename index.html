@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    
+    <script>
+        function toggleParagraph(button) {
+            const paragraph = button.nextElementSibling;
+            if (paragraph.style.display === "none") {
+                paragraph.style.display = "block";
+            } else {
+                paragraph.style.display = "none";
+            }
+        }
+    </script>
+    <script 
+    src="https://www.paypal.com/sdk/js?client-id=BAABGX8M83UmuACT-CIBod1wd-5vHa5--oH-6JSIenei8xvnNuUjCxPnMbSrWguv73uFpAefoP6YP7Rkko&components=hosted-buttons&disable-funding=venmo&currency=USD">
+  </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to My Freelancing Website</h1>
+        <p>Your one-stop solution for all Music, graphics and programming needs</p>
+    </header>
+        
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="profile.jpg" alt="Profile Picture" class="profile-pic"> <!-- Add your profile picture -->
+        <p>Hi this is Anal Chakrabarti my name Anal means Fire in my native language Bengali. 
+        I also go under the name Lord Firedragon on artist and social media pages and accounts.
+        My passion is making music, I love writing quotes and various content, 
+        I am a entry level programmer too and have skills in photo editing and AI probing. 
+        Please do let me know if you consider me to be able to handle your jobs in hand. 
+        If you have any concern or doubts about the services and packages I offer 
+        Please feel free to ping me a message thru contact form 
+        I can make custom offers to fit your need. 
+        Thanks a lot to visit my profile page.</p>
+        <a href = "https://www.fiverr.com/lordfiredragon?public_mode=true">My Fiverr Profile</a>
+        <br>
+        <a href = "https://open.spotify.com/artist/7nev5sWqaNiRNdA6904CKT?si=OgK6RuuySAiKEoyZLabiFw">My SPOTIFY Profile</a>
+        <br>
+        <a href = "https://www.instagram.com/lordfiredragon/">My INSTAGRAM Profile</a>
+        <br>
+        <a href = "https://github.com/LordFiredragon">GitHub @LORDFIREDRAGON</a>
+
+        <div id="paypal-container-NQN7YA8F3W4K2"></div>
+    <script>
+    paypal.HostedButtons({
+        hostedButtonId: "NQN7YA8F3W4K2",
+    }).render("#paypal-container-NQN7YA8F3W4K2")
+    </script>
+    </section>
+<hr>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Music Production FL STUDIO, GARAGEBAND, &  AUDACITY </li>
+            <li>Photo Editing & Graphic Design ADOBE EXPRESS, CANVA, FIGMA, & PHOTOSHOP</li>
+            <li>Web Development HTML, CSS, & JAVASCRIPT </li>
+            <li>Programming PYTHON, BOOTSTRAP, PYQT, DJANGO, & FLASK,</li>
+        </ul>
+    <section id="services">
+        <h2>Services</h2>
+        <ul>
+            <li><button type="button" onclick="toggleParagraph(this)">Music Production </button> 1: [Any thing to do with music]
+            <p style="display: none;"> I am a professional spotify artist under the name LORD FIREDRAGON. 
+                I can make music stems, compose lyrics, mix and master and 
+                produce a complete song on my own. I am skilled in playing guitar,
+                yamaha recorder flute, work with FL STUDIO, Audacity and various vst plugins.
+                If you have stems to be separated I provide a 6 stem separation for music files.
+                I can do any work related to music. Please do reach out thru contact form, to
+                avail my services
+            </p></li>
+            <li><button type="button" onclick="toggleParagraph(this)">Graphics & Photos edits</button> 2: [Any kind of photo or graphics editing ]
+            <p style="display: none;">
+                I am a professional photo editor and can do any kind of photo editing work. 
+                I can do photo retouching, background removal, color correction, 
+                and any kind of graphics work. I can also make custom graphics for your needs.
+                I work with ADOBE EXPRESS, PHOTOSHOP, CANVA and various other tools.
+                I can also make custom graphics for your needs.
+                Please do reach out thru contact form, to avail my services
+            </p></li>
+            <li><button type="button" onclick="toggleParagraph(this)">Programming and coding</button> 3: [I am a FULL STACK DEVELOPER]
+            <p style="display: none;">
+                I am a professional programmer and can do any kind of programming work. 
+                I am a full stack developer and can do any kind of programming work. 
+                I can do web development, mobile app development, and any kind of coding work.
+                I am skilled in HTML, CSS, JavaScript, Python, and various other programming languages.
+                I can also make custom applications for your needs.
+                Please do reach out thru contact form, to avail my services
+            </p></li>
+        </ul>
+    </section>
+<hr>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-item">
+            <h3>My Intro Video</h3>
+            <video width="640" height="360" controls>
+                <source src="Intro video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+           
+        </div>
+        <hr>
+        <h2>Here are some of my recent projects:</h2>
+        
+        <div class="portfolio-item">
+            <h3>Project 1: [My Logos]</h3>
+            <img src="image1.png" alt="Project 1">
+            <img src="image2.png" alt="Project 2">
+            <img src="image3.png" alt="Project 3">
+            <img src="image4.png" alt="Project 4">
+            
+        </div>
+        <hr>
+        <div class="portfolio-item">
+            <h3>Project 2: [My Songs]</h3>
+            <img src="Agun cover.jpg" alt="Project 2">
+            <figure>
+                <figcaption>Listen to the Agun:</figcaption>
+            <audio controls>
+                <source src="Agun.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            </figure>
+            <figure>
+                <figcaption>Listen to the Cigarette Puffs:</figcaption>
+              <audio controls>
+                <source src="Cigarette Puffs ele.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            </figure>
+            <figure>
+                <figcaption>Listen to the Fear:</figcaption>
+                        <audio controls>
+                <source src="fear.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+            </figure>
+            <figure>
+                <figcaption>Listen to the Jump:</figcaption>
+              <audio controls>
+                <source src="Jump.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>               
+            </figure> 
+           
+        </div>
+       
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit-form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 @Lord Firedragon. All rights reserved.</p>
+    </footer>
+</body>
+</html>
